@@ -9,9 +9,10 @@ import SwiftUI
 
 @main
 struct LandmarkApp: App {
+    @State var landmarkData = LandmarkViewModel()
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(viewModel: landmarkData)
         }
     }
 }

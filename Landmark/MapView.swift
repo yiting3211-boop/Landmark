@@ -12,7 +12,7 @@ struct MapView: View {
     //24.957134675191725, 121.24361656965657
     var center = CLLocationCoordinate2D(latitude: 24.957134675191725, longitude: 121.24361656965657)
     
-    var span = MKCoordinateSpan(latitudeDelta: 0.001, longitudeDelta: 0.001)
+    var span = MKCoordinateSpan(latitudeDelta: 0.01, longitudeDelta: 0.01)
     
     var body: some View {
         
